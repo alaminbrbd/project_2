@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HTML5 Practice</title>
+    
+    <style>
+        table{
+            font-family: arial; sans-serif;
+            border-collapse:collapse;
+            width:100%;
+        }
+        td, th{
+            border:1px solid #96D4D4;
+            text-align:left;
+            padding:8px;
+        }
+        tr:nth-child(even){
+            background-color:#dddddd;
+        }
+        tr:hover {background-color: #D6EEEE;}
+    </style>
+    <style>
+        div{
+            background-color: #FFF4A3;
+        }
+    </style>
+<style>
+    .city{
+        background-color:tomato;
+        color:white;
+        border:2px solid black;
+        margin:20px;
+        padding:20px;
+    }
+</style>
+</head>
+
+<body>
+
+<!--Navigation Bar-->
+
+<nav class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="../services/services.html">SERVICES</a>
+    <a href="../about/about.html">ABOUT US</a>
+    <a href="../contact/contact.html">CONTACT US</a>
+    <a href="assignment.html">ASSIGNMENT</a>
+</nav>
+    <h1 style="text-align:center;">Welcome to Assignment!</h1>
+
+<!--Table Exercise-->
+
+<h2>HTML Table</h2>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+<tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+</tr>
+<tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Maxico</td>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+<tr>
+    <td>Island Trading</td>
+    <td>Helen Bannett</td>
+    <td>UK</td>
+</tr>
+<tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+</tr>
+<tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+</tr>
+</table>
+
+<!--Block and Inline-->
+
+<p style="border:1px solid black">Block and Inline Practice</p>
+<div style="border:1px solid black">Hello World</div>
+
+<!--div-->
+<div>
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 13 milion inhabitants</p>
+</div>
+
+<div class="city">
+    <h2>London</h2>
+    <p>London is the capital of Engladn.</p>
+</div>
+
+    <!--File Path Practice-->
+
+    <h1>Hello SSM</h1>
+    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" width="350px" alt="Description of the image">
+     
+     
+      <!--Today Exercise-->
+<br>
+<hr>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<hr>
+<p><dfn><abbr title="Cascading Style Sheets">CSS</abbr></dfn> is a language that descrbies the style of an HTML document.</p>
+<hr>
+<dialog open>This is an open dialog window</dialog>
+<hr>
+
+
+<h2>Contact Table</h2>
+
+<form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
+
